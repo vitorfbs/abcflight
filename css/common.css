@@ -1,0 +1,30 @@
+@font-face {
+font-family: "Ranchers";
+src: url("../assets/Ranchers-Regular.ttf");
+}
+
+body{
+    color: white;
+}
+
+p, li {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h1 {
+    font-family: 'Ranchers', cursive;
+    font-size: 4rem;
+}
+
+#next-stage{
+    background-color: lightgreen;
+    display: none;
+}
+
+button {
+    background-color: white;
+    padding: 1em 3em 1em 3em;
+    font-size: 2em;
+    font-weight: bold;
+}

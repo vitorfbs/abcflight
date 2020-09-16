@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Stage 3 - Underwater</title>
+        <meta name="description" content="Jonny game menu">
+        <meta name="Heraclitus" content="game">
+        <link href="css/common.css" rel="stylesheet">
+
+    </head>
+    <style>
+        body {
+            background-color:rgb(37, 130, 187);
+        }
+        canvas{
+            background:url("assets/stage-3.jpg");
+        }
+    </style>
+    <body>
+        <h1>Stage 3 - Underwater Troubles</h1>
+        <section>
+            <p>This is it, final stretch! This is the challenging one! Score 100 points in less than 30 seconds and win this whole thing!</p>
+        </section>
+        <section>
+            <canvas id="game-screen" width="800" height="400" style="border: black solid 1px;"> </canvas>
+        </section>
+        <section>
+            <button id="next-stage" onclick="window.location.href='index.html'">Go back to Home</button>
+            <button onclick="window.location.href='stage-3.html'">Replay</button>
+        </section>
+        <section>
+            <p>
+                Controls: <br> <br>
+                W -> Up <br>
+                A -> Left <br>
+                S -> Down <br>
+                D -> Right <br>
+                Q -> Diagonal Left + Up <br>
+                E -> Diagonal Right + Up <br>
+                Z -> Diagonal Left + Down <br>
+                C -> Diagonal Right + Down <br>
+            </p>
+        </section>
+        <script src="js/stage-3.js"></script>
+    </body>
+</html>
+
