@@ -14,33 +14,16 @@
             background-color:rgb(30, 126, 133);
         }
         canvas{
-            background:url("assets/stage-2.jpg");
+            background:url("assets/stage-2.png");
         }
     </style>
     <body>
-        <h1>Stage 2 - Factory Frenzy</h1>
-        <section>
-            <p>Nothing worst than tight spaces when in a plane! Be careful and score 100 points in less than 50 seconds.</p>
-        </section>
         <section>
             <canvas id="game-screen" width="800" height="400" style="border: black solid 1px;"> </canvas>
         </section>
         <section>
-            <button id="next-stage" onclick="window.location.href='stage-3.html'">Go to stage 3</button>
-            <button onclick="window.location.href='stage-2.html'">Replay</button>
-        </section>
-        <section>
-            <p>
-                Controls: <br> <br>
-                W -> Up <br>
-                A -> Left <br>
-                S -> Down <br>
-                D -> Right <br>
-                Q -> Diagonal Left + Up <br>
-                E -> Diagonal Right + Up <br>
-                Z -> Diagonal Left + Down <br>
-                C -> Diagonal Right + Down <br>
-            </p>
+            <button id="next-stage" onclick="window.location.href='stage-3.html'">Ir para a terceira fase</button>
+            <button onclick="window.location.href='stage-2.html'">Tentar de novo</button>
         </section>
         <script src="js/stage-2.js"></script>
     </body>

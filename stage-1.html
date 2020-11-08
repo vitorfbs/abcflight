@@ -15,33 +15,16 @@
             background-color: rgb(88, 103, 112);
         }
         canvas{
-            background:url("assets/stage-1.jpg");
+            background:url("assets/stage-1.png");
         }
     </style>
     <body>
-        <h1>Stage 1 - Take it to the Mountains!</h1>
-        <section>
-            <p>Your quest first takes you to the mountains, where you have to score your first 100 points under 2 minutes.</p>
-        </section>
         <section>
             <canvas id="game-screen" width="800" height="400" style="border: black solid 1px;"> </canvas>
         </section>
         <section>
-            <button id="next-stage" onclick="window.location.href='stage-2.html'">Go to stage 2</button>
-            <button onclick="window.location.href='stage-1.html'">Replay</button>
-        </section>
-        <section>
-            <p>
-                Controls: <br> <br>
-                W -> Up <br>
-                A -> Left <br>
-                S -> Down <br>
-                D -> Right <br>
-                Q -> Diagonal Left + Up <br>
-                E -> Diagonal Right + Up <br>
-                Z -> Diagonal Left + Down <br>
-                C -> Diagonal Right + Down <br>
-            </p>
+            <button id="next-stage" onclick="window.location.href='stage-2.html'">Ir para a segunda fase</button>
+            <button onclick="window.location.href='stage-1.html'">Tentar de novo</button>
         </section>
     <script src="js/stage-1.js"></script>
     </body>

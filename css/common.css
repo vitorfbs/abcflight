@@ -1,10 +1,11 @@
 @font-face {
-font-family: "Ranchers";
-src: url("../assets/Ranchers-Regular.ttf");
+    font-family: "Arcade";
+    src: url("../assets/arcadeclassic/ARCADECLASSIC.TTF");
 }
 
 body{
     color: white;
+    padding: 1em;
 }
 
 p, li {
@@ -12,9 +13,8 @@ p, li {
     font-size: 1.5em;
 }
 
-h1 {
-    font-family: 'Ranchers', cursive;
-    font-size: 4rem;
+* {
+    font-family: 'Arial';
 }
 
 #next-stage{
@@ -28,3 +28,5 @@ button {
     font-size: 2em;
     font-weight: bold;
 }
+
+html, body {margin: 0; height: 100%;}
