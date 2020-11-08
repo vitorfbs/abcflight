@@ -3,11 +3,11 @@ var ctx = canvas.getContext('2d');
 
 soundtrack_playing = false;
 
-var score = 100;
+var score = 0;
 var goal = 100;
 
 var frame_to_second_count = 0;
-var timer = 180;
+var timer = 80;
 
 var current_letter_objective = 0;
 
@@ -53,7 +53,7 @@ sprite_animations_left = ['./assets/char_left_1.png', './assets/char_left_2.png'
 current_sprite_animation = 0;
 
 
-soundtrack = new sound("./assets/stage-1.mp3");
+soundtrack = new sound("./assets/stage-3.mp3");
 window.onkeyup = requestAnimationFrame(gameloop);
 
 function gameloop() {
@@ -87,7 +87,7 @@ function gameloop() {
     ctx.fillText("Tempo: " + Math. floor(timer / 60) + ":" + timer%60, 250, 380);
     ctx.fillText("Letra  Atual: " + getObjectiveLetter(current_letter_objective), 350, 380);
 
-    y_player += 0.15;
+    y_player += 0.05;
     if(frame_to_second_count >= 59) {
         timer--;
         frame_to_second_count = 0;
@@ -196,7 +196,7 @@ function movePlayer(keyPress){
         soundtrack.play();
         soundtrack_playing = true;
     }
-    speed_player+=1;
+    speed_player+=0.5;
     if(speed_player > 10){
         speed_player = 10;
     }

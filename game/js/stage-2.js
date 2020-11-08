@@ -3,11 +3,11 @@ var ctx = canvas.getContext('2d');
 
 soundtrack_playing = false;
 
-var score = 100;
-var goal = 100;
+var score = 0;
+var goal = 120;
 
 var frame_to_second_count = 0;
-var timer = 10;
+var timer = 160;
 
 var current_letter_objective = 0;
 
@@ -53,7 +53,7 @@ sprite_animations_left = ['./assets/char_left_1.png', './assets/char_left_2.png'
 current_sprite_animation = 0;
 
 
-soundtrack = new sound("./assets/stage-1.mp3");
+soundtrack = new sound("./assets/stage-2.mp3");
 window.onkeyup = requestAnimationFrame(gameloop);
 
 function gameloop() {

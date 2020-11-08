@@ -3,11 +3,11 @@ var ctx = canvas.getContext('2d');
 
 soundtrack_playing = false;
 
-var score = 100;
-var goal = 100;
+var score = 0;
+var goal = 150;
 
 var frame_to_second_count = 0;
-var timer = 10;
+var timer = 180;
 
 var current_letter_objective = 0;
 

@@ -8,13 +8,9 @@ body{
     padding: 1em;
 }
 
-p, li, label, input {
+p, li {
     font-weight: bold;
     font-size: 1.5em;
-}
-
-h1 {
-    font-size: 2em;
 }
 
 * {
@@ -24,12 +20,6 @@ h1 {
 #next-stage{
     background-color: lightgreen;
     display: none;
-}
-
-input, textarea, button {
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
 }
 
 button, .button {

@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Feedback</title>
+        <meta name="description" content="Jonny game menu">
+        <meta name="Heraclitus" content="game">
+        <link href="css/common.css" rel="stylesheet">
+    </head>
+    <style>
+        body{
+            background-color:rgb(93, 110, 184);
+        }
+    </style>
+    <body>
+        <section>
+            <h1>Dê seu fedback sobre a atividade</h1>
+            <hr>
+        </section>
+        <section>
+            <form action="/action_page.php">
+                <label for="atividade">Nome da atividade:</label><br><br>
+                <input type="text" class="form-control" id="atividade" name="atividade" value=""><br><hr><br>
+                <label for="diversao">De 0 a 10, o quão divertida a atividade foi?</label><br><br>
+                <input type="text" id="diversao" name="diversao" value=""><br><br><hr><br>
+                <label for="educacao">De 0 a 10, o quão educativa a atividade foi?</label><br><br>
+                <input type="text" id="educacao" name="educacao" value=""><br><br><hr><br>
+                <label for="comentario">Deixe seu comentário sobre a atividade</label><br><br>
+                <textarea type="text" id="text" name="text" rows="10" cols="40"></textarea><br><br><hr><br>
+                <input class="button" type="submit" value="Enviar">
+            </form> <br>
+            <button onclick="window.location.href='index.html'">Voltar para atividades</button>
+        </section>
+    </body>
+</html>
+
